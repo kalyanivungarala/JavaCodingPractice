@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel = "tests" thread-count="5">
+  <test  name="TestOnChrome" >
+  <parameter name = "browserName" value="Chrome"></parameter>
+    <classes>
+      <class name="com.selenium.revision.demo.MultiBrowser"/>
+    </classes>
+  </test> 
+  
+    <test  name="TestOnFirefox" >
+  <parameter name = "browserName" value="Firefox"></parameter>
+    <classes>
+      <class name="com.selenium.revision.demo.MultiBrowser"/>
+    </classes>
+  </test>
+  
+      <test  name="TestOnIE" >
+  <parameter name = "browserName" value="IE"></parameter>
+    <classes>
+      <class name="com.selenium.revision.demo.MultiBrowser"/>
+    </classes>
+  </test>
+</suite> 

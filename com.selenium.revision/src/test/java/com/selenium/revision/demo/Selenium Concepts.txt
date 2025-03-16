@@ -1,0 +1,50 @@
+Selenium WebDriver : It is the main component of selenium , it is a good list of API's for automating web applications.
+Selenium Components :
+	1.Selenium WebDriver 
+	2.Selenium IDE
+	3.Selenium RC
+	4.Selenium Grid
+
+Selenium WebDriver Exceptions: 
+	1.NoSuchElementException
+	2.NoSuchWindowException
+	3.NoSuchFrameException
+	4.NoAlertPresentException
+	5.InvalidSelectorException - comes if xpath is wrong like ///
+	6.ElementNotInteractableException - comes like for hidden elements e.g.hidden button
+	7.ElementNotSelectibleException
+	8.TimeOutException
+	9.StaleElementReferenceException
+	
+Why we create reference variable driver of type WebDriver - We can write selenium automation code once and run it on multiple browsers.We can create objects for ChromeDriver,
+InterExplorerDriver and FirefoxDriver and can be upcasted to WebDriver interface.
+
+Handling authentication popup - in the url give https://username:password@url.
+
+Waits :
+1.Implicit Wait :Implicit is a global wait, once specified in automation script applicable equally to all elements and it's a dynamic wait.	
+2.Explicit wait : It will wait for a specific web element.
+3.Fluent wait : It is an advanced version of Explicit wait.
+
+Is Selenium server required to run Selenium WebDriver scripts - No.
+Earlier for RC we need server and need some code(Selenium Core) , but now with WebDriver , companies started giving drivers and our automtion
+scripts can run on the browsers thru these drivers.
+
+//What happens if we give driver.get("www.ggole.com") without http or https - We get InvalidArgument Exception.
+
+//Alternative to driver.get() is driver.navigate().to
+
+//Difference between get() and navigate.to :
+1.get() will wait till the page loads , but navigate doe n't.
+2.navigate will support forward and backward 
+3.navigate will cahce memory so shld not be used for secure app's.
+
+
+List of scenarios that can not be automated -
+1.Captcha
+2.OTP
+3.QR Code or Bar code
+4.Video controls
+5.Desktop applications
+
+

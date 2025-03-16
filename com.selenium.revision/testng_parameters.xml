@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+ <!--  <parameter name = "Name" value = "Automation"></parameter>  -->
+    <classes>
+      <class name="com.selenium.revision.demo.ParametersOptional"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
