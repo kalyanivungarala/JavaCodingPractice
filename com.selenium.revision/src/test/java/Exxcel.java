@@ -7,7 +7,7 @@ public class Exxcel {
 		XSSFWorkbook workbook = new XSSFWorkbook("");
 		XSSFSheet sheet = workbook.getSheet("sheet1");
 		int physicalNumberOfRows = sheet.getPhysicalNumberOfRows();
-		sheet.getro
+		sheet.get
 	
 		
 		
