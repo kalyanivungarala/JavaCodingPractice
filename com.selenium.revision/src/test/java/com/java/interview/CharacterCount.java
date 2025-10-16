@@ -21,17 +21,18 @@ public class CharacterCount {
 			}
 			
 		}
+		String modified = input;
 		for (char c : charArray) {
 			int count = charCount.get(c);
 			if (count > 1) {
-				input.replace(c, '2');
-				System.out.println("Count of char is "+c+"  "+count);
-				System.out.println("Modified string " +input);
+				modified = modified.replace(c, '2');
+//				System.out.println("Count of char is "+c+"  "+count);
+//				System.out.println("Modifieddified string " +input);
 			}
 		}
 		
-		System.out.println(charCount);
-		System.out.println("Modified string " +input);
+//		System.out.println(charCount);
+		System.out.println("Modified string " +modified);
 	}
 
 }

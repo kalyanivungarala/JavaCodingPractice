@@ -1,4 +1,4 @@
-package com.java.revision;
+package com.java.coding.problems;
 
 import java.util.HashMap;
 import java.util.Map;
